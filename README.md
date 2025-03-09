@@ -113,13 +113,13 @@ src/
 └── index.tsx        # Ponto de entrada
  ```
 
-Como Contribuir
-Fork o repositório.
-Crie uma branch para suas alterações (git checkout -b feature/nome-da-feature).
-Faça suas alterações e commit (git commit -am 'Adiciona nova funcionalidade').
-Envie para o repositório remoto (git push origin feature/nome-da-feature).
-Crie um Pull Request.
-Licença
-Este projeto está licenciado sob a MIT License.
+Como Contribuir   
+Fork o repositório.   
+Crie uma branch para suas alterações (git checkout -b feature/nome-da-feature).   
+Faça suas alterações e commit (git commit -am 'Adiciona nova funcionalidade').   
+Envie para o repositório remoto (git push origin feature/nome-da-feature).   
+Crie um Pull Request.   
+Licença   
+Este projeto está licenciado sob a MIT License.   
 
 Esse modelo de README.md cobre o básico sobre o seu projeto e como executá-lo localmente. Caso precise de mais alguma coisa, fique à vontade para pedir!
