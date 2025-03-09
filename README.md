@@ -34,9 +34,7 @@ Este projeto é uma aplicação fullstack de gerenciamento de tarefas, utilizand
 
 Instale as dependências:
 
-bash
-Copiar
-Editar
+```bash
 npm install
 Configure o banco de dados no arquivo .env:
 
@@ -47,9 +45,7 @@ DATABASE_URL=postgresql://<usuario>:<senha>@localhost:5432/<nome-do-banco>?schem
 JWT_SECRET=seu-segredo-aqui
 Execute as migrações do Prisma:
 
-bash
-Copiar
-Editar
+```bash
 npx prisma migrate dev
 Inicie o servidor:
 
