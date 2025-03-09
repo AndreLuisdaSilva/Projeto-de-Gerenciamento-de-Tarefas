@@ -1,31 +1,37 @@
-# Projeto-de-Gerenciamento-de-Tarefas
-Este projeto é uma aplicação fullstack de gerenciamento de tarefas, utilizando NestJS no backend e React no frontend. O sistema permite que os usuários criem, leiam, atualizem e excluam tarefas, além de gerenciar a autenticação de usuários com JWT.
+# Projeto de Gerenciamento de Tarefas
 
-Tecnologias Utilizadas
-Backend:
-NestJS: Framework para construção de APIs em Node.js.
-Prisma ORM: ORM para interação com o banco de dados.
-PostgreSQL: Banco de dados relacional.
-JWT (JSON Web Token): Para autenticação e autorização de usuários.
-Swagger: Para a documentação da API.
-Frontend:
-React: Biblioteca para construção de interfaces de usuário.
-Vite: Build tool para aplicações React.
-TailwindCSS: Framework CSS para estilização.
-Axios: Para fazer requisições HTTP à API.
-Requisitos
-Node.js (versão 16 ou superior)
-PostgreSQL (ou um banco de dados compatível)
-Docker (opcional, caso queira rodar o PostgreSQL em contêiner)
-Instalação
-1. Backend (NestJS)
-Clone o repositório:
+Este projeto é uma aplicação fullstack de gerenciamento de tarefas, utilizando **NestJS** no backend e **React** no frontend. O sistema permite que os usuários criem, leiam, atualizem e excluam tarefas, além de gerenciar a autenticação de usuários com **JWT**.
 
-bash
-Copiar
-Editar
-git clone <URL-do-repositório>
-cd backend
+## Tecnologias Utilizadas
+
+### Backend:
+- **NestJS**: Framework para construção de APIs em Node.js.
+- **Prisma ORM**: ORM para interação com o banco de dados.
+- **PostgreSQL**: Banco de dados relacional.
+- **JWT (JSON Web Token)**: Para autenticação e autorização de usuários.
+- **Swagger**: Para a documentação da API.
+
+### Frontend:
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **Vite**: Build tool para aplicações React.
+- **TailwindCSS**: Framework CSS para estilização.
+- **Axios**: Para fazer requisições HTTP à API.
+
+## Requisitos
+
+- **Node.js** (versão 16 ou superior)
+- **PostgreSQL** (ou um banco de dados compatível)
+- **Docker** (opcional, caso queira rodar o PostgreSQL em contêiner)
+
+## Instalação
+
+### 1. Backend (NestJS)
+
+1. Clone o repositório:
+   ```bash
+   git clone <URL-do-repositório>
+   cd backend
+
 Instale as dependências:
 
 bash
