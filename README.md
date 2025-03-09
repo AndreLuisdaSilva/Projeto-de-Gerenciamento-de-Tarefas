@@ -62,26 +62,26 @@ Navegue até o diretório do frontend:
 cd frontend
  ```
 
-Instale as dependências:
+## 2. Instale as dependências:
 
-bash
-Copiar
-Editar
+```bash
 npm install
+ ```
+
 Configure a URL da API no arquivo .env:
 
-ini
-Copiar
-Editar
+```bash
 VITE_API_URL=http://localhost:3000
-Inicie o servidor de desenvolvimento:
+ ```
+## 3. Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
+```bash
 npm run dev
-3. Testando a Aplicação
-Acesse o backend via Swagger:
+ ```
+
+### 3. Testando a Aplicação
+
+## 1. Acesse o backend via Swagger:
 
 A documentação da API estará disponível em: http://localhost:3000/api
 Utilize o frontend via http://localhost:5173 para interagir com a aplicação.
@@ -93,9 +93,7 @@ Filtragem de tarefas: Tarefas podem ser filtradas por status.
 Autenticação baseada em token: Os endpoints exigem um token de autenticação para acessar.
 Estrutura do Projeto
 Backend
-bash
-Copiar
-Editar
+```bash
 src/
 ├── auth/            # Lógica de autenticação (JWT)
 ├── tasks/           # Lógica de tarefas (CRUD)
@@ -103,16 +101,18 @@ src/
 ├── prisma/          # Integração com o Prisma ORM
 ├── app.module.ts    # Módulo principal
 └── main.ts          # Ponto de entrada
+ ```
+
 Frontend
-bash
-Copiar
-Editar
+```bash
 src/
 ├── components/      # Componentes React
 ├── pages/           # Páginas da aplicação
 ├── services/        # Serviços para comunicação com a API
 ├── App.tsx          # Componente principal
 └── index.tsx        # Ponto de entrada
+ ```
+
 Como Contribuir
 Fork o repositório.
 Crie uma branch para suas alterações (git checkout -b feature/nome-da-feature).
