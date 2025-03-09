@@ -32,28 +32,29 @@ Este projeto é uma aplicação fullstack de gerenciamento de tarefas, utilizand
    git clone <URL-do-repositório>
    cd backend
     ```
-Instale as dependências:
+## 2. Instale as dependências:
 
 ```bash
 npm install
  ```
-Configure o banco de dados no arquivo .env:
+## 3. Configure o banco de dados no arquivo .env:
 
-ini
-Copiar
-Editar
+```bash
 DATABASE_URL=postgresql://<usuario>:<senha>@localhost:5432/<nome-do-banco>?schema=public
 JWT_SECRET=seu-segredo-aqui
-Execute as migrações do Prisma:
+ ```
+
+## 4. Execute as migrações do Prisma:
 
 ```bash
 npx prisma migrate dev
-Inicie o servidor:
+ ```
 
-bash
-Copiar
-Editar
+## 5. Inicie o servidor:
+```bash
 npm run start:dev
+ ```
+
 2. Frontend (React)
 Navegue até o diretório do frontend:
 
