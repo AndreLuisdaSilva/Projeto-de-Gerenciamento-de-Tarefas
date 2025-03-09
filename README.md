@@ -31,11 +31,12 @@ Este projeto é uma aplicação fullstack de gerenciamento de tarefas, utilizand
    ```bash
    git clone <URL-do-repositório>
    cd backend
-
+    ```
 Instale as dependências:
 
 ```bash
 npm install
+ ```
 Configure o banco de dados no arquivo .env:
 
 ini
