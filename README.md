@@ -55,13 +55,13 @@ npx prisma migrate dev
 npm run start:dev
  ```
 
-2. Frontend (React)
+### 2. Frontend (React)
 Navegue até o diretório do frontend:
 
-bash
-Copiar
-Editar
+```bash
 cd frontend
+ ```
+
 Instale as dependências:
 
 bash
